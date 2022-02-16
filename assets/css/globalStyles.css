@@ -1,0 +1,371 @@
+/* BASE FONTS */
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url(../fonts/Montserrat/Montserrat-Black.ttf); 
+}
+@font-face {
+    font-family: 'Montserrat-BlackItalic';
+    src: url(../fonts/Montserrat/Montserrat-BlackItalic.ttf); 
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf); 
+}
+@font-face {
+    font-family: 'Montserrat-BoldItalic';
+    src: url(../fonts/Montserrat/Montserrat-BoldItalic.ttf); 
+}
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url(../fonts/Montserrat/Montserrat-ExtraBold.ttf); 
+}
+@font-face {
+    font-family: 'Montserrat-ExtraBoldItalic';
+    src: url(../fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf); 
+}
+@font-face {
+    font-family: 'Montserrat-ExtraLight';
+    src: url(../fonts/Montserrat/Montserrat-ExtraLight.ttf); 
+}
+@font-face {
+    font-family: 'Montserrat-ExtraLightItalic';
+    src: url(../fonts/Montserrat/Montserrat-ExtraLightItalic.ttf); 
+}
+@font-face {
+    font-family: 'Montserrat-Italic';
+    src: url(../fonts/Montserrat/Montserrat-Italic.ttf); 
+}
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url(../fonts/Montserrat/Montserrat-Light.ttf); 
+}
+@font-face {
+    font-family: 'Montserrat-LightItalic';
+    src: url(../fonts/Montserrat/Montserrat-LightItalic.ttf); 
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf); 
+}
+@font-face {
+    font-family: 'Montserrat-MediumItalic';
+    src: url(../fonts/Montserrat/Montserrat-MediumItalic.ttf); 
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf); 
+}
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf); 
+}
+@font-face {
+    font-family: 'Montserrat-SemiBoldItalic';
+    src: url(../fonts/Montserrat/Montserrat-SemiBoldItalic.ttf); 
+}
+@font-face {
+    font-family: 'Montserrat-Thin';
+    src: url(../fonts/Montserrat/Montserrat-Thin.ttf); 
+}
+@font-face {
+    font-family: 'Montserrat-ThinItalic';
+    src: url(../fonts/Montserrat/Montserrat-ThinItalic.ttf); 
+}
+/* END BASE FONTS */
+
+:root {
+	--color-white: #ffffff;
+	--color-light: #f8fafc;
+	--color-black: #121212;
+	--color-night: #001632;
+	--color-black-b: #333333;
+
+	--color-blue: #1a73e8;
+	--color-gray: #80868b;
+	--color-grayish: #dadce0;
+
+	--shadow-normal: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+	0 1px 2px 0 rgba(0, 0, 0, 0.06);
+	--shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+	0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	--shadow-large: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+	0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.menu-opc{
+    font-family: "Montserrat-Medium";
+}
+
+.title_views{
+    font-family: 'Montserrat-ThinItalic';
+}
+
+.label-status-active
+{
+	border-radius: 12px;
+	padding: 5px;
+	color: white;
+	font-weight: 500;
+}
+.label-status-inactive
+{
+	border-radius: 12px;
+	padding: 5px;
+	color: white;
+	font-weight: 500;
+}
+.pdt1
+{
+	padding-top: 10px;
+}
+.pdt2
+{
+	padding-top: 20px;
+}
+.pdt3
+{
+	padding-top: 30px;
+}
+.pdt4
+{
+	padding-top: 40px;
+}.pdt5
+ {
+	 padding-top: 50px;
+ }
+.pdt6
+{
+	padding-top: 60px;
+}
+.pdt7
+{
+	padding-top: 70px;
+}
+.pdt8
+{
+	padding-top: 80px;
+}
+.pdt10
+{
+	padding-top: 100px;
+}
+.pdt13
+{
+	padding-top: 130px;
+}
+.pdt15
+{
+	padding-top: 150px;
+}
+.mgt15
+{
+	margin-top: 150px;
+}
+.mgt10
+{
+	margin-top: 100px;
+}
+.mgt9
+{
+	margin-top: 90px;
+}
+.mgt6
+{
+	margin-top: 60px;
+}
+.mgt5
+{
+	margin-top: 50px;
+}
+.mgt4
+{
+	margin-top: 40px;
+}
+.mgt3
+{
+	margin-top: 30px;
+}
+.center-text
+{
+	text-align: center;
+}
+.hide{
+	display: none;
+}
+.avatar {
+	background-color: transparent;
+}
+.stock-g {
+    display: flex;
+    justify-content: center;
+    width:35%;
+    background-color: #2dce89;
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.stock-b{
+    display: flex;
+    justify-content: center;
+    width:35%;
+    background-color: #fb6340;
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.font-txt10{
+	font-size: 12px!important;
+}
+.form .input-control{
+	position: relative;
+	width: 100%;
+	height: 3rem;
+	margin-bottom: 1.25rem;
+}
+.form .input-label{
+	position: absolute;
+	font-family: inherit;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: inherit;
+	left: 1rem;
+	top: 0.75rem;
+	padding: 0 0.25rem;
+	color: var(--color-gray);
+	background: var(--color-white);
+	transition: all 0.3s ease;
+}
+.form .input-field {
+	position: absolute;
+	font-family: inherit;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: inherit;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	padding: 0.55rem 1.25rem;
+	z-index: 1;
+	border: 2px solid var(--color-grayish);
+	outline: none;
+	border-radius: 0.5rem;
+	color: var(--color-black);
+	background: transparent;
+	transition: all 0.3s ease;
+}
+.form .input-field::placeholder {
+	opacity: 0;
+	visibility: hidden;
+	color: transparent;
+}
+.form .input-field:focus {
+	border: 2px solid var(--color-blue);
+}
+.form .input-field:focus + .input-label {
+	font-size: 0.9rem;
+	font-weight: 500;
+	top: -0.75rem;
+	left: 1rem;
+	z-index: 5;
+	color: var(--color-blue);
+}
+.form .input-field:not(:placeholder-shown).input-field:not(:focus) + .input-label{
+	font-size: 0.9rem;
+	font-weight: 500;
+	top: -0.75rem;
+	left: 1rem;
+	z-index: 5;
+}
+.form .input-field-s{
+	margin-top: 30px;
+}
+.form .input-label-s{
+	top:41px!important;
+}
+.form .input-field-s:focus + .input-label-s {
+	top: 18.77px!important;
+}
+.form .input-field-s:not(:placeholder-shown).input-field-s:not(:focus) + .input-label-s{
+	top: 18.77px!important;
+}
+.form .input-select{
+	border: 2px solid var(--color-grayish)!important;
+	border-radius: 0.5rem!important;
+	color: #8A9095!important;
+}
+.input-group-text{
+	height:46px;
+	border-radius: 0 .25rem .25rem 0;
+	border: 2px solid var(--color-grayish);
+	background-color: var(--color-grayish);
+}
+.input-group-text i{
+	color: var(--color-night);
+}
+.select-text{
+	color: #8A9095!important;
+}
+.select2-container--default .select2-selection--multiple{
+	border: 2px solid var(--color-grayish);
+}
+
+.avatar {
+	background-color: transparent;
+}
+
+.btn-close:hover {
+	text-decoration: none;
+	color: #525f7f;
+	border: 1px solid #E91E2C;
+}
+
+/* CART BUTTOS */
+
+.quantity {
+	padding-top: 20px;
+	margin-right: 60px;
+}
+.quantity input {
+	-webkit-appearance: none;
+	border: none;
+	text-align: center;
+	width: 32px;
+	font-size: 16px;
+	color: #43484D;
+	font-weight: 300;
+}
+
+button[class*=btn-quantity] {
+	width: 30px;
+	height: 30px;
+	background-color: #E1E8EE;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+}
+.minus-btn img {
+	margin-bottom: 3px;
+	border-radius: 25px;
+}
+.plus-btn img {
+	border-radius: 25px;
+	margin-top: 2px;
+}
+
+.minus-btn, .plus-btn {
+	border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+	.quantity{
+		width: 100%;
+		text-align: center;
+		margin: 6px 0;
+	}
+	.buttons {
+		margin-right: 20px;
+	}
+}
+
+/* CART BUTTONS */

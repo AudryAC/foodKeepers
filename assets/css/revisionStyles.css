@@ -1,0 +1,77 @@
+.card {
+	box-shadow: 0 0 0 0;
+}
+.avatar {
+	background-color: transparent;
+}
+.item {
+	position:relative;
+	padding-top:20px;
+	display:inline-block;
+}
+.notify-badge{
+	position: absolute;
+	right:-0px;
+	top:10px;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	font-size: 10px;
+	background: #E91E2C;
+	text-align: center;
+	border-radius: 50%;
+	color:white;
+}
+.checks-inline *{
+	display: inline;
+}
+.ul-list {
+	list-style-type: none;
+}
+.li-list {
+	display: inline-block;
+}
+input[type="checkbox"][id^="myCheckbox"] {
+	display: none;
+}
+.label-image {
+	border: 1px solid #fff;
+	padding: 10px;
+	display: block;
+	position: relative;
+	margin: 15px;
+	cursor: pointer;
+}
+.label-image:before {
+	background-color: white;
+	color: white;
+	content: " ";
+	display: block;
+	border-radius: 50%;
+	border: 1px solid grey;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	transition-duration: 0.4s;
+	transform: scale(0);
+}
+.label-image img {
+	height: 100px;
+	width: 150px;
+	transition-duration: 0.2s;
+	transform-origin: 50% 50%;
+}
+:checked + label {
+	border-color: #ddd;
+}
+:checked + label:before {
+	content: "✓";
+	transform: scale(1);
+}
+:checked + label .box-img {
+	transform: scale(0.9);
+	z-index: -1;
+}

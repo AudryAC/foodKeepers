@@ -1,0 +1,17 @@
+.bg-default {
+	background-color: #E91E2C!important
+}
+
+.white_bg{
+	background-color: white!important;
+}
+
+.fill-default {
+	fill: #E91E2C!important;
+}
+
+.btn-close:hover {
+	text-decoration: none;
+	color: #525f7f;
+	border: 1px solid #E91E2C;
+}

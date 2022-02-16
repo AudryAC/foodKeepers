@@ -1,0 +1,15 @@
+.card {
+	box-shadow: 0 0 0 0;
+}
+
+.card-link-secondary {
+	color: #6c757d;
+}
+
+a:hover{
+	color: #212F3D;
+}
+
+a:hover>i{
+	color: #E91E2C ;
+}
